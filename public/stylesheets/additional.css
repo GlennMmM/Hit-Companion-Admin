@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: white;
+	margin: 20px;	
+}
+header{
+	/* padding: 30px; */
+}
+#header-text{
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 400%;
+	color: #DA621E;	
+}
+#header{
+	padding-top: 5px;
+	text-align: center;
+	width: 100%;
+	height: 70vh;
+	clip-path: polygon( 0 5% , 100% 0 , 100% 90% , 0 100% );
+	background: url('/images/bookshelf.jpg') no-repeat fixed;
+	background-size: cover;
+}
+#hero-links{
+	display: flex;
+}
+nav{
+	display: inline;
+	margin: 10%;
+}
+#nav1{
+	float: left;
+}
+#nav2{
+	float: right;
+}

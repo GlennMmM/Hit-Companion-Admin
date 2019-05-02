@@ -1,0 +1,73 @@
+
+	<div class="row">
+	<div class="side">
+    <h2>NEWS FEEDS</h2>
+    <script type="text/javascript"> 
+      <!-- 
+      rssfeed_url = new Array(); 
+      rssfeed_url[0]="http://feeds.feedburner.com/HIT-News";  
+      rssfeed_frame_width="330"; 
+      rssfeed_frame_height="460"; 
+      rssfeed_scroll="on"; 
+      rssfeed_scroll_step="6"; 
+      rssfeed_scroll_bar="off"; 
+      rssfeed_target="_blank"; 
+      rssfeed_font_size="12"; 
+      rssfeed_font_face=""; 
+      rssfeed_border="on"; 
+      rssfeed_css_url=""; 
+      rssfeed_title="on"; 
+      rssfeed_title_name=""; 
+      rssfeed_title_bgcolor="#fff"; 
+      rssfeed_title_color="#fff"; 
+      rssfeed_title_bgimage=""; 
+      rssfeed_footer="off"; 
+      rssfeed_footer_name="rss feed"; 
+      rssfeed_footer_bgcolor="#fff"; 
+      rssfeed_footer_color="#333"; 
+      rssfeed_footer_bgimage=""; 
+      rssfeed_item_title_length="50"; 
+      rssfeed_item_title_color="#666"; 
+      rssfeed_item_bgcolor="#fff"; 
+      rssfeed_item_bgimage=""; 
+      rssfeed_item_border_bottom="on"; 
+      rssfeed_item_source_icon="off"; 
+      rssfeed_item_date="off"; 
+      rssfeed_item_description="on"; 
+      rssfeed_item_description_length="1000"; 
+      rssfeed_item_description_color="#666"; 
+      rssfeed_item_description_link_color="#333"; 
+      rssfeed_item_description_tag="off"; 
+      rssfeed_no_items="0"; 
+      rssfeed_cache = "c42cad0c8f2a20c3469a083d2634d19a"; 
+      //--> 
+  	</script>
+  	<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>			
+  </div>
+		<div class="main">
+			<div id="list" >				
+
+				{{#if failed}}
+			    <div class="alert alert-danger" role="alert">
+					  {{failed}}
+					</div>
+			  {{/if}}
+
+				<form action="" method="post">
+					
+					<div class="form-group">
+						<label for="exampleInputEmail1" >Notification Here</label>
+						<input type="text" required class="form-control" name="notification" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Notification Here" >
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputPassword1">Expire Date</label>
+						<input required type='Date' name="expireDate" class="form-control" id="exampleInputPassword1" placeholder="Description" />
+					</div>
+
+					<button type="submit" class="btn btn-primary">Add Club</button>                    
+				</form>
+				
+			</div>
+		</div>
+	</div>
